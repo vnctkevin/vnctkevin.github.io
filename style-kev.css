@@ -42,14 +42,20 @@
     text-transform: uppercase;
   }
   .footer {
-    background: rgb(202, 233, 202);
+    /* background: rgb(202, 233, 202); */
   }
   
-  .main {
+  .main article {
     text-align: left;
     /* background: deepskyblue; */
-    padding-top: 2em;
-
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display : flex;
+    flex-flow: row wrap;
+  }
+  .main {
+    padding-top: 10em;
+    padding-bottom: 10em;
     display : flex;
     flex-flow: row wrap;
   }
